@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# Lista de Tarefas em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um simples aplicativo de lista de tarefas construído usando React. Ele permite que você adicione, visualize, filtre e gerencie tarefas em sua lista.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adicione uma nova tarefa com um título, descrição, categoria e status de conclusão.
+- Visualize todas as tarefas na lista.
+- Filtre as tarefas por título, descrição, categoria e status de conclusão.
+- Marque ou desmarque as tarefas como concluídas.
+- Exclua tarefas da lista.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- React Bootstrap
+- JavaScript
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone o repositório:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/seu-usuario/react-lista-de-tarefas.git
+   Navegue até o diretório do projeto:
+
+2. Navegue até o diretório do projeto:
+   cd react-lista-de-tarefas
+
+3. Instale as dependências:
+   npm install
+
+4. Inicie o aplicativo:
+   npm start
+
+5. Abra o aplicativo em seu navegador:
+   http://localhost:3000
