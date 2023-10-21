@@ -22,16 +22,19 @@ Este é um simples aplicativo de lista de tarefas construído usando React. Ele 
 
    ```bash
    git clone https://github.com/seu-usuario/react-lista-de-tarefas.git
-   Navegue até o diretório do projeto:
 
 2. Navegue até o diretório do projeto:
+   ```bash
    cd react-lista-de-tarefas
 
 3. Instale as dependências:
+   ```bash
    npm install
 
 4. Inicie o aplicativo:
+   ```bash
    npm start
 
 5. Abra o aplicativo em seu navegador:
+   ```bash
    http://localhost:3000
